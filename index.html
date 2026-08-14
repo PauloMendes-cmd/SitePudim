@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pudim. — relíquia oficial da internet brasileira</title>
+<meta name="description" content="Redesign do lendário pudim.com.br: mesma piada, agora com identidade visual própria — um site que celebra ser uma relíquia da internet brasileira desde 2000.">
+
+<meta property="og:title" content="Pudim.">
+<meta property="og:description" content="O site mais desnecessário — e mais amado — da internet brasileira, agora com visual novo.">
+<meta property="og:type" content="website">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍮</text></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700;9..144,900&family=Space+Grotesk:wght@400;500;600;700&family=VT323&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span> NO AR DESDE 24 · 02 · 2000</span>
+    <span>·</span>
+    <span>ATUALIZADO NUNCA</span>
+    <span>·</span>
+    <span>MELHOR VISUALIZADO EM QUALQUER RESOLUÇÃO</span>
+    <span>·</span>
+    <span> NO AR DESDE 24 · 02 · 2000</span>
+    <span>·</span>
+    <span>ATUALIZADO NUNCA</span>
+    <span>·</span>
+    <span>MELHOR VISUALIZADO EM QUALQUER RESOLUÇÃO</span>
+    <span>·</span>
+  </div>
+</div>
+
+<header class="topbar">
+  <a href="#topo" class="brand"> <span>pudim</span><span class="brand-dot">.</span></a>
+  <nav class="topnav" aria-label="Navegação principal">
+    <a href="#curiosidades">Curiosidades</a>
+    <a href="#historia-site">Log do site</a>
+    <a href="#compartilhar">Compartilhar</a>
+  </nav>
+</header>
+
+<main id="conteudo">
+
+  <section class="hero" id="topo">
+    <div class="hero-glow" aria-hidden="true"></div>
+
+    <p class="counter-eyebrow">
+      <span class="counter-label">visitante nº</span>
+      <span class="counter-digits" id="counterDigits">001987234</span>
+    </p>
+
+    <div class="pudim-stage" id="pudimStage" aria-hidden="true">
+      <svg class="pudim-svg" id="pudimSvg" viewBox="0 0 420 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustração de um pudim de leite condensado com calda de caramelo, brilhando no escuro">
+        <defs>
+          <radialGradient id="glow" cx="50%" cy="45%" r="60%">
+            <stop offset="0%" stop-color="#FFC94A" stop-opacity="0.55"/>
+            <stop offset="100%" stop-color="#FFC94A" stop-opacity="0"/>
+          </radialGradient>
+          <linearGradient id="caramelGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#E38A2B"/>
+            <stop offset="100%" stop-color="#9A4E10"/>
+          </linearGradient>
+          <linearGradient id="flanGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#FFE49A"/>
+            <stop offset="100%" stop-color="#FFC94A"/>
+          </linearGradient>
+        </defs>
+
+        <circle cx="210" cy="230" r="175" fill="url(#glow)"/>
+
+        <ellipse cx="210" cy="312" rx="150" ry="26" fill="#100905" opacity="0.55"/>
+
+        <path d="M70 296 C 50 250, 95 214, 210 218 C 325 214, 370 250, 350 296 C 330 320, 90 320, 70 296 Z" fill="url(#caramelGrad)"/>
+
+        <g id="pudimBody" class="pudim-body">
+          <path d="M120 250 C 120 150, 300 150, 300 250 L 300 250 C 300 272, 260 286, 210 286 C 160 286, 120 272, 120 250 Z" fill="url(#flanGrad)"/>
+          <ellipse cx="210" cy="250" rx="90" ry="26" fill="#FFE9AE"/>
+          <ellipse cx="210" cy="250" rx="90" ry="26" fill="none" stroke="#E3A93C" stroke-width="2" opacity="0.5"/>
+          <circle cx="175" cy="230" r="3.4" fill="#E3A93C" opacity="0.55"/>
+          <circle cx="235" cy="245" r="2.6" fill="#E3A93C" opacity="0.5"/>
+          <circle cx="205" cy="200" r="2.8" fill="#E3A93C" opacity="0.45"/>
+          <path d="M140 244 C 138 260, 132 274, 128 286" stroke="#B4680F" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.85"/>
+          <path d="M275 240 C 280 256, 286 268, 282 282" stroke="#B4680F" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.85"/>
+          <path d="M210 196 C 210 210, 214 224, 208 236" stroke="#B4680F" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.7"/>
+        </g>
+      </svg>
+    </div>
+
+    <h1 class="wordmark">Pudim<span class="dot">.</span></h1>
+    <p class="tagline">Uma relíquia oficial da internet brasileira. Preservada, não atualizada.</p>
+
+    <div class="hero-actions">
+      <a href="#curiosidades" class="btn btn-primary">Ver curiosidades</a>
+      <a href="#compartilhar" class="btn btn-ghost">Compartilhar</a>
+    </div>
+
+    <p class="scroll-hint">role pra baixo, tem mais pudim</p>
+  </section>
+
+  <section class="section" id="curiosidades">
+    <div class="section-head">
+      <p class="eyebrow">arquivo · doce</p>
+      <h2>Curiosidades sobre o pudim</h2>
+      <p class="section-lead">Antes de virar piada da internet, o pudim já era piada de confeitaria — cheio de segredos, disputas e mistério sobre os furinhos.</p>
+    </div>
+
+    <div class="scrap-grid">
+      <article class="scrap-card scrap-1">
+        <span class="scrap-tag">Roma Antiga</span>
+        <h3>Os ancestrais do doce</h3>
+        <p>Misturas cozidas de ovos, leite e mel já eram feitas na Antiguidade — os primeiros parentes distantes do pudim como conhecemos hoje.</p>
+      </article>
+      <article class="scrap-card scrap-2">
+        <span class="scrap-tag">Idade Média</span>
+        <h3>O segredo do abade</h3>
+        <p>Uma lenda portuguesa conta que um abade guardava tanto sua receita de pudim que nem os melhores confeiteiros da região conseguiam copiá-la. Só veio à público após sua morte.</p>
+      </article>
+      <article class="scrap-card scrap-3">
+        <span class="scrap-tag">1840</span>
+        <h3>Chega ao Brasil</h3>
+        <p>O primeiro livro de culinária publicado no país, <em>O Cozinheiro Imperial</em>, já trazia uma receita de pudim — na época, feito com nata.</p>
+      </article>
+      <article class="scrap-card scrap-4">
+        <span class="scrap-tag">Século XX</span>
+        <h3>Entra o leite condensado</h3>
+        <p>A receita se reinventa e vira unanimidade nacional. Hoje o Brasil é o maior consumidor de leite condensado do mundo — boa parte dele vira pudim.</p>
+      </article>
+      <article class="scrap-card scrap-5">
+        <span class="scrap-tag">22 de maio</span>
+        <h3>Ele tem até dia próprio</h3>
+        <p>O Dia Nacional do Pudim é comemorado nessa data. Sim, existe um dia só pra debater se pudim bom é com ou sem furinhos.</p>
+      </article>
+      <article class="scrap-card scrap-6">
+        <span class="scrap-tag">furinhos</span>
+        <h3>Bug ou feature?</h3>
+        <p>Os furinhos aparecem quando o pudim assa em temperatura alta demais ou por tempo excessivo. Tecnicamente é erro de forno — culturalmente, é questão de honra.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section section-terminal" id="historia-site">
+    <div class="section-head">
+      <p class="eyebrow">arquivo · site</p>
+      <h2>O log do pudim.com.br original</h2>
+      <p class="section-lead">O site que inspirou este remake é, por si só, um marco. A graça dele é justamente nunca ter mudado.</p>
+    </div>
+
+    <div class="terminal">
+      <div class="terminal-bar">
+        <span class="terminal-dot"></span><span class="terminal-dot"></span><span class="terminal-dot"></span>
+        <span class="terminal-title">pudim.com.br — histórico.log</span>
+      </div>
+      <div class="terminal-body">
+        <p><span class="t-time">[2000-02-24]</span> domínio registrado por Oswaldo José Simião. conteúdo: 1 foto de pudim + 1 e-mail. nada mais.</p>
+        <p><span class="t-time">[2000–2010]</span> o site vira meme e teste de piada entre programadores. acumula milhares de links de centenas de domínios diferentes — e sobe no ranking do Google por puro boca a boca.</p>
+        <p><span class="t-time">[2015-04-09]</span> invasão via senha de FTP fraca. página trocada por mensagem atribuída a militantes do Estado Islâmico.</p>
+        <p><span class="t-time">[2015-04-10]</span> site restaurado. pudim volta ao normal — como sempre esteve.</p>
+        <p><span class="t-time">[hoje]</span> duas décadas depois, segue praticamente idêntico. e é exatamente essa teimosia que virou cultura pop nacional.</p>
+        <p class="t-cursor">_</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="sobre-projeto">
+    <div class="section-head">
+      <p class="eyebrow">sobre este remake</p>
+      <h2>O que mudou (e o que não mudou)</h2>
+    </div>
+    <div class="compare-grid">
+      <div class="compare-card">
+        <h3>Preservado</h3>
+        <ul>
+          <li>O protagonismo absoluto do pudim</li>
+          <li>O tom minimalista e autoirônico</li>
+          <li>O contato por e-mail no rodapé</li>
+        </ul>
+      </div>
+      <div class="compare-card compare-card--accent">
+        <h3>Restaurado com CSS de 2026</h3>
+        <ul>
+          <li>Layout responsivo (mobile, tablet, desktop)</li>
+          <li>Seções de curiosidades e histórico do site</li>
+          <li>Botões de compartilhamento social</li>
+          <li>Rodapé com créditos e links do projeto</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-share" id="compartilhar">
+    <div class="section-head">
+      <p class="eyebrow">espalhe o pudim</p>
+      <h2>Compartilhe esta relíquia</h2>
+      <p class="section-lead">Assim como o original só existe porque as pessoas insistem em mandar o link umas para as outras.</p>
+    </div>
+
+    <div class="share-row" role="group" aria-label="Compartilhar em redes sociais">
+      <a class="share-btn share-whatsapp" target="_blank" rel="noopener"
+         href="https://wa.me/?text=Olha%20esse%20site%20de%20pudim%20incrivel%3A%20https%3A%2F%2FSEU-SITE.netlify.app">
+        WhatsApp
+      </a>
+      <a class="share-btn share-x" target="_blank" rel="noopener"
+         href="https://twitter.com/intent/tweet?text=Olha%20esse%20site%20de%20pudim&url=https%3A%2F%2FSEU-SITE.netlify.app">
+        X / Twitter
+      </a>
+      <a class="share-btn share-facebook" target="_blank" rel="noopener"
+         href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2FSEU-SITE.netlify.app">
+        Facebook
+      </a>
+      <a class="share-btn share-linkedin" target="_blank" rel="noopener"
+         href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2FSEU-SITE.netlify.app">
+        LinkedIn
+      </a>
+      <button class="share-btn share-copy" id="copyLinkBtn" type="button">
+        <span id="copyLinkLabel">Copiar link</span>
+      </button>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-col">
+      <p class="footer-brand">pudim<span class="dot">.</span></p>
+      <p class="footer-note">Projeto acadêmico — redesign inspirado no clássico <a href="https://pudim.com.br" target="_blank" rel="noopener">pudim.com.br</a>.</p>
+      <p class="footer-note footer-joke">melhor visualizado em qualquer resolução :)</p>
+    </div>
+    <div class="footer-col">
+      <p class="footer-heading">Créditos</p>
+      <p>Desenvolvido por <strong>Seu Nome Aqui</strong></p>
+      <p><a href="mailto:contato@seudominio.com.br">contato@seudominio.com.br</a></p>
+    </div>
+    <div class="footer-col">
+      <p class="footer-heading">Links do projeto</p>
+      <p><a href="https://github.com/SEU-USUARIO/pudim-redesign" target="_blank" rel="noopener">Código-fonte no GitHub ↗</a></p>
+      <p><a href="https://SEU-SITE.netlify.app" target="_blank" rel="noopener">Site publicado no Netlify ↗</a></p>
+      <p><a href="https://pudim.com.br" target="_blank" rel="noopener">Site original ↗</a></p>
+    </div>
+  </div>
+  <p class="footer-copy">feito com carinho, açúcar e um pouco de caramelo queimado · 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
